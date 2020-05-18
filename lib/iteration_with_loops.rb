@@ -1,6 +1,6 @@
 def find_min_in_nested_arrays(src)
   row = 0 
-  min_value = []
+  array_daily_low_temps = []
   
   while row < src.count do
     collumn = 0
