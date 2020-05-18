@@ -4,6 +4,7 @@ def find_min_in_nested_arrays(src)
   
   while row < src.count do
     collumn = 0
+    min_temp = 100
     while collumn < src[row].count do
       if collumn < min_value do
         collumn = min_value
